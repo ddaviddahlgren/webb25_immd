@@ -1,4 +1,5 @@
 import Director from "../models/Director.js"
+import Movies from "../models/moviesModel.js"
 import { getFullTextSearch } from "../utils/fullTextSearch.js"
 
 export async function getAllDirectors(q) {
@@ -49,8 +50,23 @@ export async function updateDirector(id, data){
 
 export async function deleteDirector(id){
     try {
-        const deleted = await Director.findByIdAndDelete(id)
-        return !!deleted
+       
+        const director = await Director.findById(id)
+        if(!director) {
+            return null
+        }
+
+        const deletedMovies = await Movies.deleteMany({
+            director: director.name
+        })
+
+        await Director.findByIdAndDelete(id)
+
+        return {
+            director,
+            deletedMovies: deletedMovies.deletedCount
+        }
+
     } catch (err) {
         console.error("Unable to delete Director")
         return false        

@@ -79,7 +79,10 @@ router.delete("/:id", async (req, res) => {
         if (!deleted) {
             return res.status(404).json({ message: "Director was not found" })
         }
-        return res.status(200).json({ message: "Director deleted successfully" })
+        return res.status(200).json({ 
+          message: "Director deleted successfully", 
+          ...deleted
+        })
     } catch (error) {
         return res.status(500).json({ message: "Internal server error" })
     }
