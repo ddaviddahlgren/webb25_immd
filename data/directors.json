@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Christopher Nolan",
+    "birthYear": 1970,
+    "nationality": "UK"
+  },
+  {
+    "name": "Lana Wachowski",
+    "birthYear": 1965,
+    "nationality": "USA"
+  },
+  {
+    "name": "Lilly Wachowski",
+    "birthYear": 1967,
+    "nationality": "USA"
+  },
+  {
+    "name": "Denis Villeneuve",
+    "birthYear": 1967,
+    "nationality": "Canada"
+  },
+  {
+    "name": "Alfonso Cuarón",
+    "birthYear": 1961,
+    "nationality": "Mexico"
+  },
+  {
+    "name": "Ridley Scott",
+    "birthYear": 1937,
+    "nationality": "UK"
+  },
+  {
+    "name": "Alex Garland",
+    "birthYear": 1970,
+    "nationality": "UK"
+  },
+  {
+    "name": "Steven Spielberg",
+    "birthYear": 1946,
+    "nationality": "USA"
+  },
+  {
+    "name": "Doug Liman",
+    "birthYear": 1965,
+    "nationality": "USA"
+  },
+  {
+    "name": "John Krasinski",
+    "birthYear": 1979,
+    "nationality": "USA"
+  },
+  {
+    "name": "Rian Johnson",
+    "birthYear": 1973,
+    "nationality": "USA"
+  },
+  {
+    "name": "James Gray",
+    "birthYear": 1969,
+    "nationality": "USA"
+  },
+  {
+    "name": "Neill Blomkamp",
+    "birthYear": 1979,
+    "nationality": "South Africa"
+  },
+  {
+    "name": "Joseph Kosinski",
+    "birthYear": 1974,
+    "nationality": "USA"
+  },
+  {
+    "name": "Bong Joon-ho",
+    "birthYear": 1969,
+    "nationality": "South Korea"
+  },
+  {
+    "name": "Duncan Jones",
+    "birthYear": 1971,
+    "nationality": "UK"
+  }
+]

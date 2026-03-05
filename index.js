@@ -1,4 +1,4 @@
-import "dotenv/config";
+import "dotenv/config"
 import app, { PORT } from "./app.js";
 import * as db from "./config/db.js";
 

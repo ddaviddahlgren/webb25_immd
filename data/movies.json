@@ -1,0 +1,144 @@
+[ 
+    {
+  "title": "Interstellar",
+  "year": 2014,
+  "genres": ["Sci-Fi", "Drama"],
+  "durationMinutes": 169,
+  "director": "Christopher Nolan"
+},
+    
+  {
+    "title": "Inception",
+    "year": 2010,
+    "genres": ["Sci-Fi", "Action"],
+    "durationMinutes": 148,
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": ["Sci-Fi", "Action"],
+    "durationMinutes": 136,
+    "director": "Lana Wachowski, Lilly Wachowski"
+  },
+  {
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "genres": ["Sci-Fi", "Drama"],
+    "durationMinutes": 164,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "title": "Arrival",
+    "year": 2016,
+    "genres": ["Sci-Fi", "Drama"],
+    "durationMinutes": 116,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "title": "Gravity",
+    "year": 2013,
+    "genres": ["Sci-Fi", "Thriller"],
+    "durationMinutes": 91,
+    "director": "Alfonso Cuarón"
+  },
+  {
+    "title": "The Martian",
+    "year": 2015,
+    "genres": ["Sci-Fi", "Adventure"],
+    "durationMinutes": 144,
+    "director": "Ridley Scott"
+  },
+  {
+    "title": "Tenet",
+    "year": 2020,
+    "genres": ["Sci-Fi", "Action"],
+    "durationMinutes": 150,
+    "director": "Christopher Nolan"
+  },
+  {
+    "title": "Dune",
+    "year": 2021,
+    "genres": ["Sci-Fi", "Adventure"],
+    "durationMinutes": 155,
+    "director": "Denis Villeneuve"
+  },
+  {
+    "title": "Ex Machina",
+    "year": 2014,
+    "genres": ["Sci-Fi", "Drama"],
+    "durationMinutes": 108,
+    "director": "Alex Garland"
+  },
+
+  {
+    "title": "Minority Report",
+    "year": 2002,
+    "genres": ["Sci-Fi", "Action"],
+    "durationMinutes": 145,
+    "director": "Steven Spielberg"
+  },
+  {
+    "title": "Edge of Tomorrow",
+    "year": 2014,
+    "genres": ["Sci-Fi", "Action"],
+    "durationMinutes": 113,
+    "director": "Doug Liman"
+  },
+  {
+    "title": "A Quiet Place",
+    "year": 2018,
+    "genres": ["Sci-Fi", "Horror"],
+    "durationMinutes": 90,
+    "director": "John Krasinski"
+  },
+  {
+    "title": "Looper",
+    "year": 2012,
+    "genres": ["Sci-Fi", "Thriller"],
+    "durationMinutes": 119,
+    "director": "Rian Johnson"
+  },
+  {
+    "title": "Ad Astra",
+    "year": 2019,
+    "genres": ["Sci-Fi", "Drama"],
+    "durationMinutes": 124,
+    "director": "James Gray"
+  },
+  {
+    "title": "District 9",
+    "year": 2009,
+    "genres": ["Sci-Fi", "Action"],
+    "durationMinutes": 112,
+    "director": "Neill Blomkamp"
+  },
+  {
+    "title": "Children of Men",
+    "year": 2006,
+    "genres": ["Sci-Fi", "Drama"],
+    "durationMinutes": 109,
+    "director": "Alfonso Cuarón"
+  },
+  {
+    "title": "Oblivion",
+    "year": 2013,
+    "genres": ["Sci-Fi", "Action"],
+    "durationMinutes": 124,
+    "director": "Joseph Kosinski"
+  },
+  {
+    "title": "Snowpiercer",
+    "year": 2013,
+    "genres": ["Sci-Fi", "Action"],
+    "durationMinutes": 126,
+    "director": "Bong Joon-ho"
+  },
+  {
+    "title": "Moon",
+    "year": 2009,
+    "genres": ["Sci-Fi", "Drama"],
+    "durationMinutes": 97,
+    "director": "Duncan Jones"
+  }
+]
