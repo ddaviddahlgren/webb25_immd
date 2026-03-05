@@ -39,7 +39,7 @@ export async function createDirector(data){
 export async function updateDirector(id, data){
     try {
         const updatedDirector = await Director.findByIdAndUpdate(id, data, { returnDocument: "after" })
-        if(!updateDirector) return null;
+        if(!updatedDirector) return null;
         return updatedDirector
     } catch (err) {
         console.error("Unable to create Director", err)
@@ -49,7 +49,8 @@ export async function updateDirector(id, data){
 
 export async function deleteDirector(id){
     try {
-        return !!(findByIdAndDelete(id))
+        const deleted = await Director.findByIdAndDelete(id)
+        return !!deleted
     } catch (err) {
         console.error("Unable to delete Director")
         return false        

@@ -1,5 +1,5 @@
-import {Router} from "express"
-import { getAllMovies, getMovieById } from "../db/movies"
+import { Router } from "express";
+import { getAllMovies, getMovieById, createMovie } from "../db/movies.js";
 
 const router = Router()
 
@@ -45,6 +45,26 @@ router.get('/:id', async (req,res) => {
     }
 })
 
+router.post('/', async(req,res) => {
+    try {
+        const {title, year, genres, durationMinutes, director} = req.body
+        
+        if(!title || !year || !genres || !durationMinutes || !director){
+            res.status(400).json({err: "Invalid credentials"})
+        }
+
+        const newMovie = await createMovie(title, year, genres, durationMinutes, director)
+        
+        res.status(201).json(newMovie)
+    } catch(error){
+        console.error("Error in creating a new movie")
+        res.status(500).json({
+            error: "Failed to create movie",
+            details: err.message
+        })
+    }
+})
 
 
-export default moviesRouter
+
+export default router
